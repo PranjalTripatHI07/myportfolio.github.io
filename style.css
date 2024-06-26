@@ -6,14 +6,15 @@
   --body-color: rgb(255, 255, 255);
   --color-white: rgb(255, 255, 255);
 
-  --text-color-second: rgb(10, 1, 1);
-  --text-color-third: rgb(12, 14, 14);
+  --text-color-second: rgb(0, 0, 0);
+  --text-color-third: rgb(0, 0, 0);
 
   --first-color: rgb(0, 0, 0);
   --first-color-hover: rgb(0, 0, 0);
 
-  --second-color: rgb(0, 0, 0);
-  --third-color: rgb(10, 10, 10);
+  --second-color: rgb(102, 178, 245);
+
+  --third-color: rgb(0, 0, 0);
   --first-shadow-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -123,6 +124,7 @@ nav {
   padding-inline: 15px;
   margin-inline: 20px;
 }
+
 .nav-menu-btn {
   display: none;
 }
@@ -130,6 +132,16 @@ nav {
   font-size: 28px;
   cursor: pointer;
 }
+
+.nav-button.btn a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-button .btn a:hover {
+  color: lightgray;
+}
+
 .active-link {
   position: relative;
   color: var(--first-color);
